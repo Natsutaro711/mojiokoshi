@@ -37,6 +37,8 @@ ENV/
 # Project specific
 data/audio_files/*
 data/output/*
+!data/audio_files/
+!data/output/
 !data/audio_files/.gitkeep
 !data/output/.gitkeep
 transcription_result.txt
